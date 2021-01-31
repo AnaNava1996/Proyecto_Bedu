@@ -11,6 +11,10 @@
 ### Factores ambientales
 ### Factor humano
 
+## Desarrollo
+
+## Resultados
+
 ## Conclusiones
 
 ## Referencias
