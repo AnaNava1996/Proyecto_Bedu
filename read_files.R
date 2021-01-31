@@ -1,16 +1,21 @@
-library(tidyverse)
-annos <- as.character((2000:2019))
-#ann0 <- 2000
+library(dplyr)
+library(stringr)
 
-sub1 <- "https://firms.modaps.eosdis.nasa.gov/data/country/modis/"
-sub2 <- "/modis_"
-sub3 <- "_Mexico.csv"
+fetch.stats <- function(url) {
+  print(url)
+  read.csv(url, header = TRUE)
+}
+
+base.url <-
+  "https://firms.modaps.eosdis.nasa.gov/data/country/modis/${year}/modis_${year}_Mexico.csv"
+
+fire.00.19 <- as.character(2000:2019) %>%
+  lapply(function(year) {
+    str_interp(base.url, list(year = year))
+  }) %>%
+  lapply(fetch.stats)  %>%
+  do.call("rbind", .) %>%
+  filter(confidence >= 90)
 
 
-#mmm <- lapply(annos, function(x) {str_c(filename1,x,filename2,x,filename3)})
-ggg <- lapply(annos, function(x) {read.table(file = str_c(sub1,x,sub2,x,sub3), header = T, sep =",")})
-combined_df <- do.call("rbind", lapply(ggg, as.data.frame)) 
-fileConn<-file(str_c("afgadfgadg.csv"))
-write_lines(combined_df,fileConn)
-rm(list=ls())
-
+write.csv(fire.00.19, "incendios_00_19.csv")
