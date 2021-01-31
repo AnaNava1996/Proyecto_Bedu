@@ -8,6 +8,9 @@
 
 
 ## Principales factores que ocasionan un incendio forestal
+### Factores ambientales
+### Factor humano
 
 ## Conclusiones
 
+## Referencias
