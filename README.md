@@ -1,13 +1,13 @@
 # Proyecto_Bedu
 
 
-##Tabla de contenidos
+## Tabla de contenidos
 - [Problemática](#problemática)
 
-##Problemática
+## Problemática
 
 
-##Principales factores que ocasionan un incendio forestal
+## Principales factores que ocasionan un incendio forestal
 
-##Conclusiones
+## Conclusiones
 
