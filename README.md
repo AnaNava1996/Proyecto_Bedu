@@ -27,7 +27,7 @@ Es por eso que este tema nos llamó tanto la atención y quisimos hacer un proye
 Pretendemos encontrar la relación entre diversos factores en la aparición de un incendio, ponderar cuáles son los que están más relacionados, y hacer series de tiempo para analizar las temporadas de incendios.
 
 En este estudio vamos acotar la información disponible a México.
-<div>
+</div>
 
 ## Principales factores que ocasionan un incendio forestal
 ### Factor humano
