@@ -37,10 +37,9 @@ Si bien hay ciertos factores que no se pueden predecir, como la oportunidad de q
 
 ### Factores ambientales
 Anteriormente mencionamos que la mayor parte de los incendios forestales son ocasionados por la actividad humana, pero también es interesante estudiar cuáles factores ambientales hay que tener en cuenta para la prevención de incendios ya que la humedad, el tipo de vegetación, influyen y son importantes para que se exparsan los incendios.
-## Desarrollo
 
 
-### Fuentes de datos:
+## Fuentes de datos:
 
 ... dar una descripcion detallada de los data set!!, qué significa cada columna  y así...
 
@@ -53,6 +52,11 @@ Para el alcance de nuestro proyecto, acotamos la información a México, ya que 
 [Link al data set de la CONABIO](http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
 
 http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no
+
+
+
+## Desarrollo
+
 
 
 ...blablaba comparar relación entre variables...
@@ -77,4 +81,4 @@ http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metada
 
 
 
-</div>
+<div/>
