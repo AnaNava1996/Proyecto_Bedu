@@ -1,4 +1,4 @@
-<div class=''text-justify''>
+<div style="text-align: right">
 # Proyecto_Bedu
 
 
