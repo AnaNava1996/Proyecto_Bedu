@@ -13,7 +13,7 @@
 - [Conclusiones](#conclusiones)
 - [Referencias](#referencias)
 ## Problemática
-<div style="text-align: justify">
+
 ... explicar aquí qué se quiere lograr y porqué es importante
 ... insertar texto emotivo, cambio climático y como nos afectan los incendios :'(
 
@@ -30,8 +30,9 @@ Pretendemos encontrar la relación entre diversos factores en la aparición de u
 
 En este estudio vamos acotar la información disponible a México.
 
-</div>
+
 ## Principales factores que ocasionan un incendio forestal
+
 ### Factor humano
 Si bien hay ciertos factores que no se pueden predecir, como la oportunidad de que una persona entre a un bosque haga un baby shower y eso desencadene un incendio en California, [[2]](#referencias) existen otros eventos de los cuales sí se puede hacer una correlación con los incendios forestales, como lo son la tala y la quema de bosques.
 
