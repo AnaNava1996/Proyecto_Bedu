@@ -93,7 +93,18 @@ ui <-
                                 img( src = "conabio_vegetacion.png", align = "center",
                                      width = 750)
                             )
+                    ),
+                    
+                    
+                    tabItem(tabName= "map",
+                            fluidRow(
+                              dateRangeInput("dates", label = h3("Incendios por rango de fechas")),
+                              
+                              hr(),
+                              fluidRow(column(4, verbatimTextOutput("value")))
+                            )
                     )
+                    
                     
                 )
             )
@@ -140,6 +151,11 @@ server <- function(input, output) {
                                           options = list(aLengthMenu = c(5,25,50),
                                                          iDisplayLength = 5)
     )
+    
+    # Mapa de puntos de calor... en rangos de fechas
+
+    output$value <- renderPrint({ input$dates })    
+    
   
     
 }

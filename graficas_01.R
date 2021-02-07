@@ -1,4 +1,6 @@
 #librerias necesarias
+if (!require("tidyverse")) install.packages("tidyverse")
+if (!require("lubridate")) install.packages("lubridate")
 library(tidyverse)
 library(lubridate)
 
