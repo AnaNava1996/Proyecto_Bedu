@@ -1,14 +1,21 @@
 ## app.R ##
 
-## Dash board para el data set 'mtcars'
+#install.packages("leaflet")
+#install.packages("units", dependencies = TRUE)
 
-if (!require("shiny")) install.packages("shiny")
-if (!require("shinydashboard")) install.packages("shinydashboard")
-if (!require("shinythemes")) install.packages("shinythemes")
+#if (!require("shiny")) install.packages("shiny")
+#if (!require("shinydashboard")) install.packages("shinydashboard")
+#if (!require("shinythemes")) install.packages("shinythemes")
+#if (!require("tmap"))
+#install.packages("tmap",dependencies=TRUE)
+#library(tmap)
+
 
 library(shiny)
 library(shinydashboard)
 library(shinythemes)
+library(googleway)
+
 
 incendios<-read.csv("./Data_Sets/incendios_en_regiones.csv")
 
@@ -29,11 +36,14 @@ ui <-
             dashboardSidebar(
                 width = 350,
                 sidebarMenu(
+                    menuItem("Mapa de incendios", tabName = "map2", icon = icon("map-marker")),
+                    menuItem("Ecorregiones y uso de suelo", tabName = "img", icon = icon("map")),
+                    menuItem("Data Table", tabName = "data_table", icon = icon("table")),
                     menuItem("Histograma", tabName = "Dashboard", icon = icon("dashboard")),
                     menuItem("Dispersión", tabName = "graph", icon = icon("area-chart")),
-                    menuItem("Data Table", tabName = "data_table", icon = icon("table")),
-                    menuItem("Mapas", tabName = "img", icon = icon("map")),
-                    menuItem("Mapa de Calor", tabName = "map", icon = icon("map-marker"))
+                    menuItem("Incendios por año", tabName = "tiempo", icon = icon("line-chart"))
+
+                    
                 )
                 
             ),
@@ -99,8 +109,8 @@ ui <-
                     tabItem(tabName= "map",
                             fluidRow(
                               dateRangeInput("dates", label = h3("Incendios por rango de fechas"),
-                                             start = NULL,
-                                             end = NULL,
+                                             start = "2000-11-01",
+                                             end = "2019-12-31",
                                              min = NULL,
                                              max = NULL,
                                              format = "yyyy-mm-dd",
@@ -114,6 +124,31 @@ ui <-
                               hr(),
                               fluidRow(column(4, verbatimTextOutput("value")))
                             )
+                    ),
+                    tabItem(tabName= "map2",
+                            fluidRow(
+                                
+                                dateInput(
+                                  inputId="fecha",
+                                  label= h3("Incendios por rango de fechas"),
+                                  value = "2019-06-12",
+                                  min = "2000-11-01",
+                                  max = "2019-12-31",
+                                  format = "yyyy-mm-dd",
+                                  startview = "month",
+                                  weekstart = 0,
+                                  language = "es",
+                                  width = NULL,
+                                  datesdisabled = NULL,
+                                  daysofweekdisabled = NULL
+                                ),
+                                
+                                
+                              fluidRow(
+                                box(width = 6,
+                                    google_mapOutput(outputId = "map")
+                                )
+                              )
                     )
                     
                     
@@ -121,6 +156,7 @@ ui <-
             )
         )
     )
+    )    
 
 #De aquí en adelante es la parte que corresponde al server
 
@@ -167,8 +203,27 @@ server <- function(input, output) {
     # Mapa de puntos de calor... en rangos de fechas
     output$value <- renderPrint({ input$dates })    
     
-  
+    map_key <- set_key("AIzaSyDVWX-3h0oB3u8vsTWeWI9bvjVzmi2DZ1A")
     
+    output$map <- renderGoogle_map({
+        entrada <- input$fecha
+        print(entrada)
+        
+        entre_fechas <- function(fecha){incendios[incendios$acq_date == fecha,]}
+        entre_fechas <- entre_fechas(entrada)
+        
+        latitudes <- entre_fechas$latitude
+        longitudes <- entre_fechas$longitudes
+        
+        gmap <- google_map(key = map_key,
+                   location = c(23.6345,-102.5528),
+                   data=entre_fechas,
+                   update_map_view = TRUE,
+                   zoom = 5) #%>%
+            
+        add_markers(gmap,lat = latitudes, lon = longitudes)
+    })    
+  
 }
 
 
