@@ -18,4 +18,4 @@ fire.00.19 <- as.character(2000:2019) %>%
   filter(confidence >= 90)
 
 
-write.csv(fire.00.19, "incendios_00_19.csv")
+write.csv(fire.00.19, "./Data_Sets/incendios_00_19.csv")
