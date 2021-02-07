@@ -3,9 +3,9 @@
 
 ## Tabla de contenidos
 - [Problemática](#problemática)
-- [Principales factores que ocasionan un incendio forestal](#principales factores que ocasionan un incendio forestal)
-- [Factor ambiental](##factor ambiental)
-- [Factor humano](##factor humano)
+- [Principales factores que ocasionan un incendio forestal](#principales-factores-que-ocasionan-un-incendio-forestal)
+- [Factor ambiental](##factor-ambiental)
+- [Factor humano](##factor-humano)
 - [Desarrollo](#desarrollo)
 - [Resultados](#resultados)
 - [Conclusiones](#conclusiones)
