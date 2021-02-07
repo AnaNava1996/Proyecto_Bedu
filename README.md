@@ -1,4 +1,4 @@
-<div style="text-align: right">
+<div style="text-align: justify">
 # Proyecto_Bedu
 
 
@@ -81,4 +81,4 @@ http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metada
 
 
 
-<div/>
+</div>
