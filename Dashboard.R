@@ -98,7 +98,18 @@ ui <-
                     
                     tabItem(tabName= "map",
                             fluidRow(
-                              dateRangeInput("dates", label = h3("Incendios por rango de fechas")),
+                              dateRangeInput("dates", label = h3("Incendios por rango de fechas"),
+                                             start = NULL,
+                                             end = NULL,
+                                             min = NULL,
+                                             max = NULL,
+                                             format = "yyyy-mm-dd",
+                                             startview = "month",
+                                             weekstart = 0,
+                                             language = "es",
+                                             separator = " a "
+                                             
+                                             ),
                               
                               hr(),
                               fluidRow(column(4, verbatimTextOutput("value")))
@@ -151,9 +162,9 @@ server <- function(input, output) {
                                           options = list(aLengthMenu = c(5,25,50),
                                                          iDisplayLength = 5)
     )
+
     
     # Mapa de puntos de calor... en rangos de fechas
-
     output$value <- renderPrint({ input$dates })    
     
   
