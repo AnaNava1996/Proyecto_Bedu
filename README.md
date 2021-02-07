@@ -1,3 +1,4 @@
+<div class=''text-justify''>
 # Proyecto_Bedu
 
 
@@ -15,7 +16,7 @@
 ... explicar aquí qué se quiere lograr y porqué es importante
 ... insertar texto emotivo, cambio climático y como nos afectan los incendios :'(
 
-<div class=''text-justify''>
+
 Los bosques son esenciales para la vida en nuestro planeta, purifican el aire, mantienen el ciclo del agua, regulan la humedad y la temperatura, y son el hogar de numerosas especies animales. [[1]](#referencias)
 
 Los incendios son importantes para los bosques, de hecho existe un equilibrio en la naturaleza ya que si estos se dan de forma natural ayudan a controlar ciertas plagas que podrían afectar a la vegetación. Pero actualmente sólo alrededor del 2% de los incendios son por causas naturales.
@@ -27,7 +28,7 @@ Es por eso que este tema nos llamó tanto la atención y quisimos hacer un proye
 Pretendemos encontrar la relación entre diversos factores en la aparición de un incendio, ponderar cuáles son los que están más relacionados, y hacer series de tiempo para analizar las temporadas de incendios.
 
 En este estudio vamos acotar la información disponible a México.
-</div>
+
 
 ## Principales factores que ocasionan un incendio forestal
 ### Factor humano
@@ -76,3 +77,4 @@ http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metada
 
 
 
+</div>
