@@ -8,7 +8,7 @@ library(lubridate)
 library(stringr)
 
 incendios <- 
-    read.csv("./Data_Sets/incendios_con_ecoregiones_y_tiposdesuelo.csv", row.names = NULL) %>%
+    read.csv("../Data_Sets/incendios_con_ecoregiones_y_tiposdesuelo.csv", row.names = NULL) %>%
     filter(DESECON1 != "", GRUPO_FINA != "") %>% 
     mutate(
         date_acq = ymd(acq_date),
@@ -238,8 +238,24 @@ server <- function(input, output) {
     })
     
     output$timeseries_tiposuelo_plot <- renderPlot({
-
-        plot(decompose(arrange(full_join(filter(by_tiposuelo,GRUPO_FINA == input$rowName2), days, by = "date_acq"),date_acq),type="additive"))
+        print(input$rowName)
+        
+        soil.type <- by_tiposuelo %>% 
+            filter(GRUPO_FINA == input$rowName2) %>% 
+            full_join(days, by = "date_acq") %>%
+            arrange(date_acq)
+        
+        soil.type$count[is.na(soil.type$count)] <- 0
+        soil.type$GRUPO_FINA[is.na(soil.type$GRUPO_FINA)] <- input$rowName2
+        
+        ts(
+            soil.type$count, 
+            start = c(2000, 11), 
+            end = c(2019, 12), 
+            frequency = 365
+        ) %>% 
+            decompose() %>% 
+            plot()
     })
     
     # Gráficas de dispersión
