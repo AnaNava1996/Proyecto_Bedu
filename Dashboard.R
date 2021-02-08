@@ -142,7 +142,7 @@ ui <-
           menuItem("Mapa de incendios", tabName = "map2", icon = icon("map-marker")),
           menuItem("Ecorregiones y uso de suelo", tabName = "img", icon = icon("map")),
           menuItem("Data Table", tabName = "data_table", icon = icon("table")),
-          menuItem("Histogramas", tabName = "Dashboard", icon = icon("dashboard")),
+          menuItem("Incendios por Regiones", tabName = "Dashboard", icon = icon("dashboard")),
           menuItem("Diagramas de dispersión", tabName = "graph", icon = icon("area-chart")),
           menuItem("Incendios por eco-región", tabName = "ecoregion", icon = icon("line-chart")), 
           menuItem("Incendios por tipo/uso de suelo", tabName = "tipodesuelo", icon = icon("line-chart")) 
@@ -180,6 +180,7 @@ server <- function(input, output) {
       theme_light() +
       xlab("Regiones") +
       ylab("Frecuencia") +
+      labs(fill = "Ecorregiones") +
       theme(axis.text.x = element_text(angle = 90))
   })
   
