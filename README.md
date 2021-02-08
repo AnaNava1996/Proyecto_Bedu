@@ -100,20 +100,18 @@ Los datos obtenidos como output tabular CSV de read_files.R se procesaron poster
 
 Se generó un nuevo proyecto QGIS con las capas vectoriales de los dos mapas temáticos de CONABIO (archivos SHP) y se importó a este proyecto QGIS el archivo CSV generado en read_files.R . 
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_01.png" width="503" height="345">
-
-![img 2](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_02.PNG "ggg")
-
-![img 3](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_03.PNG "kkk")
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_02.PNG" width="355" height="315">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_03.PNG" width="371" height="345">
 
 Se utilizó la herramienta de SAGA de agregar atributos de polígonos a puntos, con esto los puntos de calor ubicados dentro del polígono de una eco-región o tipo de suelo dado adquieren los atributos (columnas) de dichos polígonos. Esto tiene el efecto de un join, así los puntos de calor adquieren la información del tipo de suelo y eco-región en donde ocurrieron. Como se ve en las capturas de pantalla, este proceso se realizó dos veces ya que se requirió agregar los atributos (columnas) de dos datasets de polígonos: tipos de suelo y eco-regiones.
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_04.PNG "mmm")
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_05.PNG "mmm")
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_06.PNG "mmm")
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_07.PNG "mmm")
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_04.PNG" width="220" height="345">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_05.PNG" width="344" height="260">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_06.PNG" width="297" height="346">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_07.PNG" width="344" height="260">
 
 Los datos obtenidos del proceso anterior se exportaron a un CSV incendios_con_ecoregiones_y_tiposdesuelo.csv en la carpeta Data_Sets de este repositorio. Este archivo es el que se utilizó para los análisis posteriores. 
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_08.png "mmm")
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_09.PNG "mmm")
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_08.png" width="416" height="329">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_09.PNG" width="295" height="344">
 
 ### 5.x Aproximaciones analíticas
 Aquí se describen las aproximaciones analíticas con las que el equipo se enfrentó al problema. Todos estos análisis pueden ser consultados en la sección de resultados.
