@@ -13,13 +13,14 @@
 
 ## Panorama Inicial
 El presente repositorio almacena los recursos utilizados para la realización del proyecto en equipo correspondiente a la segunda fase del programa BEDU – Santander: Disruptive Innovation: Data Science.
+
 El proyecto elegido lleva por título “Análisis de riesgo de incendio forestal (mejorar titulo)l” y fue desarrollado en el lenguaje de programación con enfoque en estadístico ‘R’.
 
 ## Introducción
 Las zonas forestales son imprescindibles para la vida en el planeta. Además de ser parte fundamental en los ciclos de producción y distribución del agua, purifican el aire que respiramos al capturar bióxido de carbono y liberar oxígeno. También regulan la temperatura y la humedad, con lo que se equilibra el clima; proporcionan alimento, medicina y refugio a los seres vivos; y son fuente de materia prima en muchas actividades humanas.
 
 
-###Condiciones que influyen en la iniciación de un incendio forestal
+### Condiciones que influyen en la iniciación de un incendio forestal
 
 #### Las fuentes o puntos de calor. 
 En el bosque no existe la combustión espontánea, siempre se requiere de una fuente de incandescencia externa mayor a 200°C para que ocurra un incendio. Estos puntos son los principales datos utilizados en este estudio.
