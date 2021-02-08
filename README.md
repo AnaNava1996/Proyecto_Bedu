@@ -54,12 +54,14 @@ La mayoría de los incendios forestales son ocasionados por la actividad humana,
 
 #### Factor humano
 Si bien hay ciertos factores que no se pueden predecir, como la oportunidad de que una persona entre a un bosque haga un baby shower y desencadene un incendio en California, [2] existen otros eventos de los cuales sí se puede hacer una correlación con los incendios forestales, como lo son la tala y la quema de bosques. 
+
 Se cree que entre el 95% y el 99% de los incendios forestales son ocasionados por actividades derivadas de los humanos [1]. Entre las cuales destacan las siguientes actividades: [3]
-Actividades ilícitas (27%)
-Agrícolas (27%) 
-Desconocidas (13%)
-Pecuarias (9%)
-Fogatas (9%)
+
+- Actividades ilícitas (27%)
+- Agrícolas (27%) 
+- Desconocidas (13%)
+- Pecuarias (9%)
+- Fogatas (9%)
 
 
 ## Objetivo
@@ -71,7 +73,7 @@ Este proyecto estudia los puntos de calor y la probabilidad de causar un incendi
 
 
 ## Justificación
-Los bosques son esenciales para la vida en nuestro planeta, purifican el aire, mantienen el ciclo del agua, regulan la humedad y la temperatura, y son el hogar de numerosas especies animales. [2] Son estas razones las que hacen necesario el contar con un control estadístico que nos permita conocer las principales causas y prevenir los posibles incendios.
+Los bosques son esenciales para la vida en nuestro planeta, purifican el aire, mantienen el ciclo del agua, regulan la humedad y la temperatura, y son el hogar de numerosas especies animales. Son estas razones las que hacen necesario el contar con un control estadístico que nos permita conocer las principales causas y prevenir los posibles incendios.
 
 
 ## Desarrollo
@@ -110,13 +112,17 @@ Se hará uso de este tipo de predicción para decidir si las tendencias en incen
 
 
 ## Discusión
-Según la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat) y la Comisión Nacional Forestal (Conafor), aunque los incendios forestales ocurren durante todo el año, la temporada fuerte para la región Centro, Norte, Noreste, Sur y Sureste del país se presenta principalmente del mes de enero a junio. En nuestro análisis podemos comprobar que…(?) En tanto que, para la región Noroeste, la temporada crítica es de mayo a septiembre, coincidiendo (o no) (?) con nuestros estudios que…
+Según la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat) y la Comisión Nacional Forestal (Conafor), aunque los incendios forestales ocurren durante todo el año, la temporada fuerte para la región Centro, Norte, Noreste, Sur y Sureste del país se presenta principalmente del mes de enero a junio. En nuestro análisis podemos comprobar que…(?) 
+
+En tanto que, para la región Noroeste, la temporada crítica es de mayo a septiembre, coincidiendo (o no) (?) con nuestros estudios que…
 También la Semarnat y la Conafor indican que la mayor vegetación afectada es en su mayoría pastos y matorrales, en nuestro estudio se encontró que… (?) 
 
 
 ## Conclusiónes 
 Los datos que poseen mayor relación con los positivos de incendios fueron:
+
 Las gráficas de tiempo indican que...
+
 Disclaimer. Se invita a la población a considerar las advertencias expedidas por nuestras autoridades reiterando el llamado a no hacer uso del fuego en las zonas forestales. Los incendios en áreas urbanas son atendidos por Protección Civil, y se deben reportar al número gratuito 800-INCENDIO (46236346) o al 911.
 
 
