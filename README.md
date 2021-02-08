@@ -15,16 +15,13 @@
 ## Panorama Inicial
 El presente repositorio almacena los recursos utilizados para la realización del proyecto en equipo correspondiente a la segunda fase del programa BEDU – Santander: Disruptive Innovation: Data Science.
 
-El proyecto elegido lleva por título “Análisis de riesgo de incendio forestal (mejorar titulo)l” y fue desarrollado en el lenguaje de programación con enfoque en estadístico ‘R’.
+El proyecto elegido lleva por título “Análisis sobre riesgo de incendio forestal en México” y fue desarrollado en el lenguaje de programación con enfoque en estadístico ‘R’.
 
-Integrantes: (hay q poner nuestros nombres completos)
+Desarrollado por: 
 
 - Eréndira Celis Acosta
-
 - Ana Paola Nava Vivas
-
 - Hegar José García Rodríguez
-
 - Gerardo Leonel García Pegueros
 
 
