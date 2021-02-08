@@ -23,7 +23,7 @@ Integrantes: (hay q poner nuestros nombres completos)
 
 - Ana Paola Nava Vivas
 
-- Hegar
+- Hegar José García Rodríguez
 
 - Gerardo Leonel García Pegueros
 
