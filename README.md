@@ -137,18 +137,32 @@ Se hará uso de este tipo de predicción para decidir si las tendencias en incen
 ## 6. Resultados
 
 ### Incendios por Rango de Fechas
+
+En la primera pestaña del dashboard se puede encontrar un mapa interactivo de México, en donde se muestran las ubicaciones de incendios por fecha seleccionada.
+
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/1.1%20Incendios%20por%20rango%20de%20fechas.JPG">
 
 ### Imagen de Calor para la correlación de variables
+
+En la segunda pestaña se despliegan dos mapas, el primero de ecorregiones terrestres en México, y el segundo de uso de suelo y vegetación modificado por la CONABIO. Tanto las ecorregiones como el mapa de uso de suelo y vegetación fueron utilizados en los próximos análisis.
+
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/2.1%20Imagen%20de%20calor%20para%20la%20correlaci%C3%B3n%20de%20variables.JPG">
 
 ### Tabla de datos
+
+Aquí se pueden consultar datos específicos del dataframe principal utilizado en este proyecto ya sea navegando por las numerosas paginas o haciendo una búsqueda directa en la ventana ‘Search’.
+
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/3.1%20Tabla%20de%20datos.JPG">
 
 ### Cantidad de icendios por ecoregión y tipo de suelo
+
+En la cuarta pestaña del dashboard se ilustra un grafico de barras que muestra la frecuencia de incendios por ecorregión y tipo de suelo. Los tipos de suelo se encuentran distribuidos en el eje horizontal, mientras que las ecorregiones son representadas por bloques de colores distintos.
+
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/4.1%20cantidad%20de%20incendios%20por%20ecoregi%C3%B3n%20y%20tipo%20de%20suelo.JPG">
 
 ### Incendios por ecorregión
+
+En esta pestaña se encuentran dos graficas interactivas a seleccionar por ecorregión, la primera muestra las variaciones en incendios a lo largo de los años 2000 al 2019, y la segunda los incendios por temporada acumulados por día del año.
 
 #### Selvas Calido-Humedas
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.1%20Selvas%20Calido-Humedas.JPG">
@@ -172,6 +186,8 @@ Se hará uso de este tipo de predicción para decidir si las tendencias en incen
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.7%20California%20Mediterranea.JPG">
 
 ### Incendios por tipo/uso de suelo
+
+En la última sección del dasboard se encuentran dos graficas interactivas, similares a las de la sección anterior, pero estas clasificadas por tipo/uso de suelo. 
 
 #### Manejo Agricola, precuario y forestal
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.1%20Manejo%20Agricola%2C%20precuario%20y%20forestal.JPG">
