@@ -15,9 +15,11 @@ library(shiny)
 library(shinydashboard)
 library(shinythemes)
 library(googleway)
+library(ggplot2)
+library(dplyr)
 
 
-incendios<-read.csv("./Data_Sets/incendios_en_regiones.csv")
+incendios<-na.omit(read.csv("./Data_Sets/incendios_con_ecoregiones_y_tiposdesuelo.csv"))
 
 
 
@@ -39,9 +41,9 @@ ui <-
                     menuItem("Mapa de incendios", tabName = "map2", icon = icon("map-marker")),
                     menuItem("Ecorregiones y uso de suelo", tabName = "img", icon = icon("map")),
                     menuItem("Data Table", tabName = "data_table", icon = icon("table")),
-                    menuItem("Histograma", tabName = "Dashboard", icon = icon("dashboard")),
-                    menuItem("Dispersión", tabName = "graph", icon = icon("area-chart")),
-                    menuItem("Incendios por año", tabName = "tiempo", icon = icon("line-chart"))
+                    menuItem("Histogramas", tabName = "Dashboard", icon = icon("dashboard")),
+                    menuItem("Diagramas de dispersión", tabName = "graph", icon = icon("area-chart")),
+                    menuItem("Incendios por año", tabName = "tiempo", icon = icon("line-chart")) #este va a ser para las series de tiempo
 
                     
                 )
@@ -55,19 +57,15 @@ ui <-
                     # Histograma
                     tabItem(tabName = "Dashboard",
                             fluidRow(
-                                titlePanel("Histograma de las variables del data set mtcars"), 
+                                titlePanel("Histograma incendios por ecorregión y tipo de suelo"), 
                                 selectInput("x", "Seleccione el valor de X",
-                                            choices = names(mtcars)),
+                                            choices = names(incendios)),
                                 
-                                #selectInput("zz", "Selecciona la variable del grid", 
-                                            
-                                #            choices = c("cyl", "vs", "gear", "carb")),
-                                #box(plotOutput("plot1", height = 250)),
-                                
-                                box(
-                                    title = "Controls",
-                                    sliderInput("bins", "Number of observations:", 1, 30, 15)
-                                )
+                                box(plotOutput("plot1", width = 750)),
+                            ),
+                            box(
+                              title = "Controls",
+                              sliderInput("bins", "Number of observations:", 1, 30, 15)
                             )
                     ),
                     
@@ -166,15 +164,14 @@ server <- function(input, output) {
     #Gráfico de Histograma
     output$plot1 <- renderPlot({
         
-        x <- mtcars[,input$x]
+        x <- incendios[,input$x]
         bin <- seq(min(x), max(x), length.out = input$bins + 1)
         
-        ggplot(mtcars, aes(x, fill = mtcars[,input$zz])) + 
+        ggplot(incendios, aes(x)) + 
             geom_histogram( breaks = bin) +
             labs( xlim = c(0, max(x))) + 
             theme_light() + 
-            xlab(input$x) + ylab("Frecuencia") + 
-            facet_grid(input$zz)
+            xlab(input$x) + ylab("Frecuencia")
         
         
     })
