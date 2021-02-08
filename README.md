@@ -99,9 +99,9 @@ En el mismo script read_files.R se filtraron los puntos de calor cuyo campo “C
 Los datos obtenidos como output tabular CSV de read_files.R se procesaron posteriormente en el software libre QGIS para asociar los puntos de calor a un contexto geo-ecológico. Los pasos a seguir en este proceso fueron los siguientes:
 
 Se generó un nuevo proyecto QGIS con las capas vectoriales de los dos mapas temáticos de CONABIO (archivos SHP) y se importó a este proyecto QGIS el archivo CSV generado en read_files.R . 
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_01.png "mmm")
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_02.png "mmm")
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_03.png "mmm")
+![img 1](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_01.png "mmm")
+![img 2](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_02.png "ggg")
+![img 3](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_03.png "kkk")
 
 Se utilizó la herramienta de SAGA de agregar atributos de polígonos a puntos, con esto los puntos de calor ubicados dentro del polígono de una eco-región o tipo de suelo dado adquieren los atributos (columnas) de dichos polígonos. Esto tiene el efecto de un join, así los puntos de calor adquieren la información del tipo de suelo y eco-región en donde ocurrieron. Como se ve en las capturas de pantalla, este proceso se realizó dos veces ya que se requirió agregar los atributos (columnas) de dos datasets de polígonos: tipos de suelo y eco-regiones.
 ![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_04.png "mmm")
