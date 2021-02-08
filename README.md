@@ -148,26 +148,30 @@ Se hará uso de este tipo de predicción para decidir si las tendencias en incen
 ### Cantidad de icendios por ecoregión y tipo de suelo
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/4.1%20cantidad%20de%20incendios%20por%20ecoregi%C3%B3n%20y%20tipo%20de%20suelo.JPG">
 
-### Selvas Calido-Humedas
+### Incendios por ecorregión
+
+#### Selvas Calido-Humedas
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.1%20Selvas%20Calido-Humedas.JPG">
 
-### Elevaciones semiaridas meridoniales
+#### Elevaciones semiaridas meridoniales
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.2%20Elevaciones%20semiaridas%20meridoniales.JPG">
 
-### Desiertos de America del Norte
+#### Desiertos de America del Norte
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.3%20Desiertos%20de%20America%20del%20Norte.JPG">
 
-### Grandes Planicies
+#### Grandes Planicies
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.4%20Grandes%20Planicies.JPG">
 
-### Selvas Calido-Secas
+#### Selvas Calido-Secas
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.5%20Selvas%20Calido-Secas.JPG">
 
-### Sierras Templadas
+#### Sierras Templadas
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.6%20Sierras%20Templadas.JPG">
 
-### California Mediterranea
+#### California Mediterranea
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.7%20California%20Mediterranea.JPG">
+
+### Incendios por tipo/uso de suelo
 
 
 ## 7. Discusión
