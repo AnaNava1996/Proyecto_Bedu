@@ -213,6 +213,8 @@ Según la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat) y la Com
 
 También la Semarnat y la Conafor indican que la mayor vegetación afectada es en su mayoría pastos y matorrales. En las gráficas mostradas en las últimas dos pestañas del dashboard queda demostrado que esto es así. En las gráficas que muestran incendios por tipo de suelo se muestra que las zonas con más probabilidad de sufrir un incendio son los matorrales, las selvas, los bosques y las zonas de manejo agrícola, pecuario y forestal, por el contrario, zonas no mostradas en nuestros resultados, pero que pueden ser consultadas desde la aplicación del proyecto, tienen muy baja probabilidad de incendiarse, zonas tales como áreas sin vegetación aparente, manglares, vegetaciones de suelos arenosos y ciudades importantes. Respecto a las gráficas de incendio por ecorregión, las más propensas a sufrir incendios son las selvas, y las sierras, mientras que los que menos los sufren son las zonas semiáridas, desiertos y grandes planicies.
 
+En las gráficas con incendios acumulados por día del año se enfatiza la cantidad de incendios que ocurren mayormente entre abril y mayo para todas las eco-regiones y los tipos de suelo. Esto coincide con el rango que reportan SEMARNAT y CONAFOR. Esto indica que las condiciones ambientales que dominan este patrón temporal sobrepasan el clima local y/o el tipo de vegetación. Sin embargo, a nivel inter-anual varían los periodos de máximos de incendios para cada ecorregión y tipo de suelo.
+
 En cuanto al análisis predictivo, no se desarrolló ningún algoritmo, pero con el análisis estadístico aquí realizado, se predice tendencias similares en cuanto a regiones y temporadas en los años venideros.
 
 
