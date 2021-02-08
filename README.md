@@ -90,11 +90,9 @@ Dichos datos se recolectaron por medio del script `read_files.R`, contenido en e
 
 Asimismo, se utilizaron los datos vectoriales (polígonos) de dos mapas temáticos de CONABIO: 
 
-[1) eco-regiones terrestres] (http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no )
+[usos de suelo](http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
 
-[2) usos de suelo] (http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no )
-
-[[5] CONABIO (s.f.) Geoportal. ](http://www.conabio.gob.mx/informacion/gis/)
+[eco-regiones terrestres](http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
 
 
 ### 5.x Preparación de los datos
