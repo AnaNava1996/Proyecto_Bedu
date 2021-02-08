@@ -1,4 +1,4 @@
-# Proyecto_Bedu
+# Proyecto Bedu
 
 ## Tabla de contenidos
 - [Introducción](#problemática)
@@ -32,6 +32,7 @@ Los incendios forestales pueden ocurrir en cualquier momento; sin embargo, en M�
 Una zona forestal a la que los humanos ingresan con facilidad y constancia es más susceptible a la ocurrencia de incendios forestales.
 
 
+
 ### Otros elementos para tener en cuenta
 Para detectar los incendios se cuenta con varios recursos, almacenados en las bases de datos utilizados; este proyecto se centra en tres de ellos:
 
@@ -43,6 +44,7 @@ La conabio y el Servicio Meteorológico Nacional desarrollan este programa media
 
 #### Un Sistema de Información Geográfica diseñado por el Servicio Forestal de Canadá 
 Este produce mapas de riesgo meteorológico, y el análisis de técnicos especializados en el Centro Nacional de Control de Incendios Forestales, para emitir un reporte diario y reportes especiales cuando las condiciones sobre los incendios forestales se consideran extremas o peligrosas
+
 
 
 ### Principales factores iniciadores de un incendio forestal
@@ -76,21 +78,30 @@ Los bosques son esenciales para la vida en nuestro planeta, purifican el aire, m
 
 ### Recolección de los datos
 La principal fuente de datos utilizada fue una recolección de información de incendios que datan del 2000 al 2019, recolectadas por la NASA vía satelital.
+
 [Link al data set de incendios forestales de la NASA](https://firms.modaps.eosdis.nasa.gov/country/)
+
 [Link al data set de la CONABIO](http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
+
 http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no
+
 
 ### Preparación de los datos
 Se filtraron los puntos de calor cuyo campo de confianza “Confidence” superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de causar un incendio
 
+
 ### Aproximaciones analíticas
 Aquí se describen las aproximaciones analíticas con las que el equipo se enfrentó al problema. Todos estos análisis pueden ser consultados en la sección de resultados.
+
 
 #### Aproximación Descriptiva
 Se decidió utilizar esta aproximación desde un principio para conocer el contexto de la situación y nuestra realidad actual. Para esto se encontraron diversas relaciones entre los incendios forestales, puntos de calor y tipo de vegetación. 
 
+
 #### Aproximación diagnóstica
 Esta aproximación se empleó con el fin de entender la causa de los incendios forestales en México. Estudios estadísticos fueron representados en un histograma dinámico que muestra las frecuencias de incendios por zonas del país, un diagrama de dispersión que…(?) y series de tiempo que indican las tendencias entre los años 2002 y 2018 por regiones del país.
+
+
 #### Aproximación predictiva
 
 Se hará uso de este tipo de predicción para decidir si las tendencias en incendios forestales continuarán. (?)
