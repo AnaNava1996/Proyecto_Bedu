@@ -173,6 +173,27 @@ Se hará uso de este tipo de predicción para decidir si las tendencias en incen
 
 ### Incendios por tipo/uso de suelo
 
+#### Manejo Agricola, precuario y forestal
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.1%20Manejo%20Agricola%2C%20precuario%20y%20forestal.JPG">
+
+#### Selva alta
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.2%20Selva%20alta.JPG">
+
+#### Matorral desértico
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.3%20Matorral%20des%C3%A9rtico%20microfilo.JPG">
+
+#### Matorral espinozo
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.4%20Matorral%20espinozo.JPG">
+
+#### Bosque de encino
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.5%20bosque%20de%20encino.JPG">
+
+#### Selva baja
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.6%20Selva%20baja.JPG">
+
+#### Pastizal
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.7%20Pastizal.JPG">
+
 
 ## 7. Discusión
 Según la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat) y la Comisión Nacional Forestal (Conafor), aunque los incendios forestales ocurren durante todo el año, la temporada fuerte para la región Centro, Norte, Noreste, Sur y Sureste del país se presenta principalmente del mes de enero a junio. En nuestro análisis podemos comprobar que…(?) 
