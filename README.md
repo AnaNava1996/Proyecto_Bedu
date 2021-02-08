@@ -136,6 +136,7 @@ Se hará uso de este tipo de predicción para decidir si las tendencias en incen
 
 ## 6. Resultados
 
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/1.1%20Incendios%20por%20rango%20de%20fechas.JPG">
 
 ## 7. Discusión
 Según la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat) y la Comisión Nacional Forestal (Conafor), aunque los incendios forestales ocurren durante todo el año, la temporada fuerte para la región Centro, Norte, Noreste, Sur y Sureste del país se presenta principalmente del mes de enero a junio. En nuestro análisis podemos comprobar que…(?) 
