@@ -88,17 +88,31 @@ Los bosques son esenciales para la vida en nuestro planeta, purifican el aire, m
 La principal fuente utilizada fueron los datos históricos de puntos de calor de NASA-FIRMS para México del sensor MODIS de 2000 a 2019. 
 Dichos datos se recolectaron por medio del script read_files.R, contenido en este mismo repositorio. 
 
-
-[Link al data set de la CONABIO](http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
-
-http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no
+Asimismo, se utilizaron los datos vectoriales (polígonos) de dos mapas temáticos de CONABIO: 
+1) [eco-regiones terrestres] (http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
+2) [usos de suelo] (http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
 
 
 ### 5.x Preparación de los datos
-En el mismo script read_files.R se filtraron los puntos de calor cuyo campo “Confidence” superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de estar asociados a un incendio. Los datos obtenidos se procesaron posteriormente en el software libre QGIS para asociar los puntos de calor a un contexto geo-ecológico. Esto implicó 
+En el mismo script read_files.R se filtraron los puntos de calor cuyo campo “Confidence” superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de estar asociados a un incendio. 
 
-![alt text](figuras/qgis_01.jpg)
-![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_01.png "Logo Title Text 1")
+Los datos obtenidos como output tabular CSV de read_files.R se procesaron posteriormente en el software libre QGIS para asociar los puntos de calor a un contexto geo-ecológico. Los pasos a seguir en este proceso fueron los siguientes:
+
+Se generó un nuevo proyecto QGIS con las capas vectoriales de los dos mapas temáticos de CONABIO (archivos SHP) y se importó a este proyecto QGIS el archivo CSV generado en read_files.R . 
+![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_01.png "mmm")
+![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_02.png "mmm")
+![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_03.png "mmm")
+
+Se utilizó la herramienta de SAGA de agregar atributos de polígonos a puntos, con esto los puntos de calor ubicados dentro del polígono de una eco-región o tipo de suelo dado adquieren los atributos (columnas) de dichos polígonos. Esto tiene el efecto de un join, así los puntos de calor adquieren la información del tipo de suelo y eco-región en donde ocurrieron. Como se ve en las capturas de pantalla, este proceso se realizó dos veces ya que se requirió agregar los atributos (columnas) de dos datasets de polígonos: tipos de suelo y eco-regiones.
+![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_04.png "mmm")
+![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_05.png "mmm")
+![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_06.png "mmm")
+![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_07.png "mmm")
+
+Los datos obtenidos del proceso anterior se exportaron a un CSV incendios_con_ecoregiones_y_tiposdesuelo.csv en la carpeta Data_Sets de este repositorio. Este archivo es el que se utilizó para los análisis posteriores. 
+![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_08.png "mmm")
+![alt text](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_09.png "mmm")
+
 ### 5.x Aproximaciones analíticas
 Aquí se describen las aproximaciones analíticas con las que el equipo se enfrentó al problema. Todos estos análisis pueden ser consultados en la sección de resultados.
 
