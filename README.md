@@ -1,7 +1,7 @@
 # Proyecto Fase 2.1 BEDU - Equipo 23
 
 ## Tabla de contenido
-- [Panorama Inicial] (#panorama_inicial)
+- [Panorama Inicial](#panorama_inicial)
 - [Introducción](#problemática)
 - [Objetivo](#objetivo)
 - [Alcance](#alcance)
