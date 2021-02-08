@@ -1,4 +1,4 @@
-# Proyecto Fase 2.1 BEDU - Equipo 23
+# Proyecto BEDU Fase 2 (Equipo 23)
 
 ## Tabla de contenido
 - [0. Panorama Inicial](#panorama_inicial)
