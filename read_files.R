@@ -15,7 +15,7 @@ fire.00.19 <- as.character(2000:2019) %>%
   }) %>%
   lapply(fetch.stats)  %>%
   do.call("rbind", .) %>%
-  filter(confidence >= 90)
-
+  filter(confidence >= 90) %>%
+  mutate(acq_time=str_c(str_sub(acq_time,1,-3),":",str_sub(acq_time,-2,-1)))
 
 write.csv(fire.00.19, "./Data_Sets/incendios_00_19.csv")
