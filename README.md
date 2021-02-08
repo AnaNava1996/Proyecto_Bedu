@@ -37,10 +37,10 @@ Una zona forestal a la que los humanos ingresan con facilidad y constancia es m�
 Para detectar los incendios se cuenta con varios recursos, almacenados en las bases de datos utilizados; este proyecto se centra en tres de ellos:
 
 #### Información satelital
-La Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (conabio) y del Servicio Meteorológico Nacional de la Comisión Nacional del Agua (cna), que reciben en dos ocasiones durante el día (conabio) o cada 20 minutos (cna) imágenes del territorio nacional que muestran los focos de calor, señales de un posible incendio forestal. 
+La Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) y del Servicio Meteorológico Nacional de la Comisión Nacional del Agua (CNA), que reciben en dos ocasiones durante el día (CONABIO) o cada 20 minutos (CNA) imágenes del territorio nacional que muestran los focos de calor, señales de un posible incendio forestal. 
 
 #### Un programa para la Detección de Puntos de Calor 
-La conabio y el Servicio Meteorológico Nacional desarrollan este programa mediante técnicas de percepción remota en tiempo real. La información de la conabio se encuentra estructurada por años y adicionalmente a los puntos de calor, se puede obtener información tabular, georreferenciada (mapas dinámicos) y cuadros de noticias. 
+La CONABIO y el Servicio Meteorológico Nacional desarrollan este programa mediante técnicas de percepción remota en tiempo real. La información de la CONABIO se encuentra estructurada por años y adicionalmente a los puntos de calor, se puede obtener información tabular, georreferenciada (mapas dinámicos) y cuadros de noticias. 
 
 #### Un Sistema de Información Geográfica diseñado por el Servicio Forestal de Canadá 
 Este produce mapas de riesgo meteorológico, y el análisis de técnicos especializados en el Centro Nacional de Control de Incendios Forestales, para emitir un reporte diario y reportes especiales cuando las condiciones sobre los incendios forestales se consideran extremas o peligrosas
