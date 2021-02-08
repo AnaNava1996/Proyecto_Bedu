@@ -1,4 +1,4 @@
-# Proyecto Fase 2.1 BEDU - Equipo 23
+# Proyecto BEDU Fase 2 (Equipo 23)
 
 ## Tabla de contenido
 - [0. Panorama Inicial](#panorama_inicial)
@@ -15,16 +15,13 @@
 ## Panorama Inicial
 El presente repositorio almacena los recursos utilizados para la realización del proyecto en equipo correspondiente a la segunda fase del programa BEDU – Santander: Disruptive Innovation: Data Science.
 
-El proyecto elegido lleva por título “Análisis de riesgo de incendio forestal (mejorar titulo)l” y fue desarrollado en el lenguaje de programación con enfoque en estadístico ‘R’.
+El proyecto elegido lleva por título “Análisis sobre riesgo de incendio forestal en México” y fue desarrollado en el lenguaje de programación con enfoque en estadístico ‘R’.
 
-Integrantes: (hay q poner nuestros nombres completos)
+Desarrollado por: 
 
 - Eréndira Celis Acosta
-
 - Ana Paola Nava Vivas
-
 - Hegar José García Rodríguez
-
 - Gerardo Leonel García Pegueros
 
 
@@ -75,7 +72,7 @@ Se pretende encontrar la relación entre factores iniciadores de un incendio, po
 
 
 ## 3. Alcance
-Este proyecto estudia los puntos de calor y la probabilidad de causar un incendio en México y en diferenciadas regiones del país haciendo uso de datos recabados entre los años 2002 y 2018 (?).
+Este proyecto estudia los puntos de calor por sus ecorregiones y tipos de suelo en México y su probabilidad de causar un incendio, haciendo uso de datos recabados entre los años 2000 y 2019.
 
 
 ## 4. Justificación
@@ -212,9 +209,9 @@ En la última sección del dasboard se encuentran dos graficas interactivas, sim
 
 
 ## 7. Discusión
-Según la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat) y la Comisión Nacional Forestal (Conafor), aunque los incendios forestales ocurren durante todo el año, la temporada fuerte para la región Centro, Norte, Noreste, Sur y Sureste del país se presenta principalmente del mes de enero a junio, en tanto que, para la región Noroeste, la temporada crítica es de mayo a septiembre. Gracias al análisis realizado se puede comprobar que en efecto esto es así; en el mapa de incendios correspondiente a la pestaña número uno del dashboard, se muestra como las regiones en la que los incendios aparecen varían respecto a la temporada seleccionada en el mapa interactivo
+Según la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat) y la Comisión Nacional Forestal (Conafor), aunque los incendios forestales ocurren durante todo el año, la temporada fuerte para la región Centro, Norte, Noreste, Sur y Sureste del país se presenta principalmente del mes de enero a junio, en tanto que, para la región Noroeste, la temporada crítica es de mayo a septiembre. Gracias al análisis realizado se puede comprobar que en efecto esto es así; en el mapa de incendios correspondiente a la pestaña número uno del dashboard, se muestra como las regiones en la que los incendios aparecen varían respecto a la temporada seleccionada en el mapa interactivo.
 
-También la Semarnat y la Conafor indican que la mayor vegetación afectada es en su mayoría pastos y matorrales. En las gráficas mostradas en las últimas dos pestañas del dashboard queda demostrado que esto es así. En las gráficas que muestran incendios por tipo de suelo se muestra que las zonas con más probabilidad de sufrir un incendio son los matorrales, las selvas, los bosques y las zonas de manejo agrícola, pecuario y forestal, por el contrario, zonas no mostradas en nuestros resultados, pero que pueden ser consultadas desde la aplicación del proyecto, tienen muy baja probabilidad de incendiarse, zonas tales como áreas sin vegetación aparente, manglares, vegetaciones de suelos arenosos y ciudades importantes. Respecto a las gráficas de incendio por ecorregión, las más propensas a sufrir incendios son las selvas, y las sierras, mientras que los que menos los sufren son las zonas semiáridas, desiertos y grandes planicies
+También la Semarnat y la Conafor indican que la mayor vegetación afectada es en su mayoría pastos y matorrales. En las gráficas mostradas en las últimas dos pestañas del dashboard queda demostrado que esto es así. En las gráficas que muestran incendios por tipo de suelo se muestra que las zonas con más probabilidad de sufrir un incendio son los matorrales, las selvas, los bosques y las zonas de manejo agrícola, pecuario y forestal, por el contrario, zonas no mostradas en nuestros resultados, pero que pueden ser consultadas desde la aplicación del proyecto, tienen muy baja probabilidad de incendiarse, zonas tales como áreas sin vegetación aparente, manglares, vegetaciones de suelos arenosos y ciudades importantes. Respecto a las gráficas de incendio por ecorregión, las más propensas a sufrir incendios son las selvas, y las sierras, mientras que los que menos los sufren son las zonas semiáridas, desiertos y grandes planicies.
 
 En cuanto al análisis predictivo, no se desarrolló ningún algoritmo, pero con el análisis estadístico aquí realizado, se predice tendencias similares en cuanto a regiones y temporadas en los años venideros.
 
