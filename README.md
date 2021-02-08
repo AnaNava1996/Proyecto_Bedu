@@ -89,27 +89,30 @@ La principal fuente utilizada fueron los datos históricos de puntos de calor de
 Dichos datos se recolectaron por medio del script read_files.R, contenido en este mismo repositorio. 
 
 Asimismo, se utilizaron los datos vectoriales (polígonos) de dos mapas temáticos de CONABIO: 
-1) [eco-regiones terrestres] (http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
-2) [usos de suelo] (http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
+[1) eco-regiones terrestres] (http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
+[2) usos de suelo] (http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
 
 
 ### 5.x Preparación de los datos
-En el mismo script read_files.R se filtraron los puntos de calor cuyo campo “Confidence” superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de estar asociados a un incendio. 
+En el mismo script read_files.R se filtraron los puntos de calor cuyo campo “Confidence” superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de estar asociados a un incendio. Asimismo se realizó una operación de cadena de caracteres en la columna de la hora de adquisición acq_date, para que el formato de la cadena fuera fácilmente convertible a formato time en pasos subsecuentes. 
 
 Los datos obtenidos como output tabular CSV de read_files.R se procesaron posteriormente en el software libre QGIS para asociar los puntos de calor a un contexto geo-ecológico. Los pasos a seguir en este proceso fueron los siguientes:
 
 Se generó un nuevo proyecto QGIS con las capas vectoriales de los dos mapas temáticos de CONABIO (archivos SHP) y se importó a este proyecto QGIS el archivo CSV generado en read_files.R . 
+
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_01.png" width="503" height="345">
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_02.PNG" width="355" height="315">
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_03.PNG" width="371" height="345">
 
 Se utilizó la herramienta de SAGA de agregar atributos de polígonos a puntos, con esto los puntos de calor ubicados dentro del polígono de una eco-región o tipo de suelo dado adquieren los atributos (columnas) de dichos polígonos. Esto tiene el efecto de un join, así los puntos de calor adquieren la información del tipo de suelo y eco-región en donde ocurrieron. Como se ve en las capturas de pantalla, este proceso se realizó dos veces ya que se requirió agregar los atributos (columnas) de dos datasets de polígonos: tipos de suelo y eco-regiones.
+
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_04.PNG" width="220" height="345">
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_05.PNG" width="344" height="260">
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_06.PNG" width="297" height="346">
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_07.PNG" width="344" height="260">
 
 Los datos obtenidos del proceso anterior se exportaron a un CSV incendios_con_ecoregiones_y_tiposdesuelo.csv en la carpeta Data_Sets de este repositorio. Este archivo es el que se utilizó para los análisis posteriores. 
+
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_08.png" width="416" height="329">
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_09.PNG" width="295" height="344">
 
