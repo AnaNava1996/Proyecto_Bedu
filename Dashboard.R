@@ -8,7 +8,7 @@ library(lubridate)
 library(stringr)
 
 incendios <- 
-  read.csv("./Data_Sets/incendios_con_ecoregiones_y_tiposdesuelo.csv") %>%
+  read.csv("./Data_Sets/incendios_con_ecoregiones_y_tiposdesuelo.csv",row.names = NULL) %>%
   filter(DESECON1!="",GRUPO_FINA!="") %>% 
   mutate(
     date_acq = ymd(acq_date),
@@ -149,7 +149,6 @@ ui <-
           menuItem("Data Table", tabName = "data_table", icon = icon("table")),
           menuItem("Histogramas", tabName = "Dashboard", icon = icon("dashboard")),
           menuItem("Diagramas de dispersión", tabName = "graph", icon = icon("area-chart")),
-          menuItem("Incendios por año", tabName = "tiempo", icon = icon("line-chart")),
           menuItem("Incendios por eco-región", tabName = "ecoregion", icon = icon("line-chart")), 
           menuItem("Incendios por tipo/uso de suelo", tabName = "tipodesuelo", icon = icon("line-chart")) 
         )
@@ -185,13 +184,13 @@ server <- function(input, output) {
   })
   
   output$interannual_ecoreg_plot <- renderPlot({ 
-    by_ecoregion %>% 
-    filter(DESECON1 == input$rowName1) %>%
-    ggplot() +
-      aes(x = "date_acq", y = "count") +
+    #by_ecoregion %>% 
+    #filter(DESECON1 == input$rowName1) %>%
+    ggplot(filter(by_ecoregion,DESECON1 == input$rowName1)) +
+      aes(x = date_acq, y = count) +
       geom_smooth() +
       # scale_x_date(date_breaks = "2 years", date_labels = "%Y") +
-      coord_cartesian(ylim = c(0, 30)) +
+      #coord_cartesian(ylim = c(0, 30)) +
       labs(
         title = str_c("Incendios por eco-región en México 2000-2019"),
         subtitle = input$rowName1,
@@ -204,7 +203,7 @@ server <- function(input, output) {
     by_ecoregion %>%
     filter(DESECON1 == input$rowName1) %>%
     ggplot() +
-      aes(x = "doy", y = "count") +
+      aes(x = doy, y = count) +
       geom_smooth() +
       coord_cartesian(ylim=c(0, 45)) +
       labs(
@@ -219,7 +218,7 @@ server <- function(input, output) {
     by_tiposuelo %>%
     filter(GRUPO_FINA == input$rowName2) %>%
     ggplot() +
-      aes(x = "date_acq", y = "count") +
+      aes(x = date_acq, y = count) +
       geom_smooth() +
       # scale_x_date(date_breaks = "2 years", date_labels = "%Y") +
       coord_cartesian(ylim=c(0, 30)) +
@@ -236,7 +235,7 @@ server <- function(input, output) {
     by_tiposuelo %>%
     filter(GRUPO_FINA == input$rowName2) %>%
     ggplot() +
-      aes(x = "doy", y = "count") +
+      aes(x = doy, y = count) +
       geom_smooth() +
       labs(
         title = str_c("Incendios por tipo/uso de suelo en México acumulados por día del año"),
