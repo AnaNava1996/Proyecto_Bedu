@@ -16,6 +16,13 @@ El presente repositorio almacena los recursos utilizados para la realización de
 
 El proyecto elegido lleva por título “Análisis de riesgo de incendio forestal (mejorar titulo)l” y fue desarrollado en el lenguaje de programación con enfoque en estadístico ‘R’.
 
+Integrantes: (hay q poner nuestros nombres completos)
+
+-Erendira
+-Ana
+-Hegar
+-Gerardo
+
 ## Introducción
 Las zonas forestales son imprescindibles para la vida en el planeta. Además de ser parte fundamental en los ciclos de producción y distribución del agua, purifican el aire que respiramos al capturar bióxido de carbono y liberar oxígeno. También regulan la temperatura y la humedad, con lo que se equilibra el clima; proporcionan alimento, medicina y refugio a los seres vivos; y son fuente de materia prima en muchas actividades humanas.
 
