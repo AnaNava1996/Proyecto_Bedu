@@ -8,8 +8,8 @@ library(lubridate)
 library(stringr)
 
 incendios <- 
-  read.csv("./Data_Sets/incendios_con_ecoregiones_y_tiposdesuelo.csv",row.names = NULL) %>%
-  filter(DESECON1!="",GRUPO_FINA!="") %>% 
+  read.csv("./Data_Sets/incendios_con_ecoregiones_y_tiposdesuelo.csv", row.names = NULL) %>%
+  filter(DESECON1 != "", GRUPO_FINA != "") %>% 
   mutate(
     date_acq = ymd(acq_date),
     time_acq = hm(acq_time),
@@ -33,14 +33,9 @@ dashboard <-
   tabItem(
     tabName = "Dashboard",
     fluidRow(
-      titlePanel("Histograma incendios por ecorregión y tipo de suelo"),
-      selectInput("x", "Seleccione el valor de X", choices = names(incendios)),
-      box(plotOutput("plot1", width = 750)),
-    ),
-    box(
-      title = "Controls",
-      sliderInput("bins", "Número de observaciones:", 1, 30, 15)
-    )
+      titlePanel("Cantidad de Incendios por Ecorregión y Tipo de Suelo"),
+      mainPanel(plotOutput("plot1")),
+    ) 
   )
 
 graph <- 
@@ -173,14 +168,19 @@ server <- function(input, output) {
   
   #Gráfico de Histograma
   output$plot1 <- renderPlot({
-    x <- incendios[, input$x]
-    bin <- seq(min(x), max(x), length.out = input$bins + 1)
+    mapping <- list(
+      "Regiones" = "GRUPO_FINA",
+      "Tipo de suelo" = "DESECON1"
+    )
     
-    ggplot(incendios, aes(x)) +
-      geom_histogram(breaks = bin) +
-      labs(xlim = c(0, max(x))) +
+    incendios %>%
+      ggplot() +
+      aes(x = GRUPO_FINA, fill = DESECON1) +
+      geom_bar() +
       theme_light() +
-      xlab(input$x) + ylab("Frecuencia")
+      xlab("Regiones") +
+      ylab("Frecuencia") +
+      theme(axis.text.x = element_text(angle = 90))
   })
   
   output$interannual_ecoreg_plot <- renderPlot({ 
