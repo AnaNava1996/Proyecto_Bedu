@@ -85,9 +85,9 @@ Los bosques son esenciales para la vida en nuestro planeta, purifican el aire, m
 ## 5. Desarrollo
 
 ### 5.1. Recolección de los datos
-La principal fuente de datos utilizada fue una recolección de información de incendios que datan del 2000 al 2019, recolectadas por la NASA vía satelital.
+La principal fuente utilizada fueron los datos históricos de puntos de calor de NASA-FIRMS para México del sensor MODIS de 2000 a 2019. 
+Dichos datos se recolectaron por medio del script read_files.R, contenido en este mismo repositorio. 
 
-[Link al data set de incendios forestales de la NASA](https://firms.modaps.eosdis.nasa.gov/country/)
 
 [Link al data set de la CONABIO](http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
 
@@ -95,7 +95,7 @@ http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metada
 
 
 ### 5.x Preparación de los datos
-Se filtraron los puntos de calor cuyo campo de confianza “Confidence” superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de causar un incendio
+En el mismo script read_files.R se filtraron los puntos de calor cuyo campo “Confidence” superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de estar asociados a un incendio. Los datos obtenidos se procesaron posteriormente en el software libre QGIS para asociar los puntos de calor a un contexto geo-ecológico. Esto implicó 
 
 
 ### 5.x Aproximaciones analíticas
@@ -144,4 +144,4 @@ Disclaimer. Se invita a la población a considerar las advertencias expedidas po
 
 [[5] CONABIO (s.f.) Geoportal. ](http://www.conabio.gob.mx/informacion/gis/)
 
-
+[Link al data set de incendios forestales de la NASA](https://firms.modaps.eosdis.nasa.gov/country/)
