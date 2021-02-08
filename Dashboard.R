@@ -38,18 +38,6 @@ dashboard <-
     ) 
   )
 
-graph <- 
-  tabItem(
-    tabName = "graph",
-    fluidRow(
-      titlePanel(h3("Gráficos de dispersión")),
-      selectInput("a", "Selecciona el valor de x", choices = names(mtcars)),
-      selectInput("y", "Seleccione el valor de y", choices = names(mtcars)),
-      selectInput("z", "Selecciona la variable del grid", choices = c("cyl", "vs", "gear", "carb")),
-      box(plotOutput("output_plot", height = 300, width = 460))
-    )
-  )
-
 data.table <- 
   tabItem(
     tabName = "data_table",
@@ -143,7 +131,6 @@ ui <-
           menuItem("Ecorregiones y uso de suelo", tabName = "img", icon = icon("map")),
           menuItem("Data Table", tabName = "data_table", icon = icon("table")),
           menuItem("Incendios por Regiones", tabName = "Dashboard", icon = icon("dashboard")),
-          menuItem("Diagramas de dispersión", tabName = "graph", icon = icon("area-chart")),
           menuItem("Incendios por eco-región", tabName = "ecoregion", icon = icon("line-chart")), 
           menuItem("Incendios por tipo/uso de suelo", tabName = "tipodesuelo", icon = icon("line-chart")) 
         )
@@ -151,7 +138,6 @@ ui <-
       dashboardBody(
         tabItems(
           dashboard,
-          graph,
           data.table,
           img,
           map,
