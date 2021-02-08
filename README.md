@@ -99,7 +99,7 @@ En el mismo script read_files.R se filtraron los puntos de calor cuyo campo “C
 Los datos obtenidos como output tabular CSV de read_files.R se procesaron posteriormente en el software libre QGIS para asociar los puntos de calor a un contexto geo-ecológico. Los pasos a seguir en este proceso fueron los siguientes:
 
 Se generó un nuevo proyecto QGIS con las capas vectoriales de los dos mapas temáticos de CONABIO (archivos SHP) y se importó a este proyecto QGIS el archivo CSV generado en read_files.R . 
-![img 1](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_01.png "mmm")
+![img 1](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_01.png  =503x345 "mmm")
 
 ![img 2](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_02.PNG "ggg")
 
