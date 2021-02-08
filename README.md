@@ -97,7 +97,7 @@ http://www.conabio.gob.mx/informacion/metadata/gis/usv731mgw.xml?_xsl=/db/metada
 ### 5.x Preparación de los datos
 En el mismo script read_files.R se filtraron los puntos de calor cuyo campo “Confidence” superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de estar asociados a un incendio. Los datos obtenidos se procesaron posteriormente en el software libre QGIS para asociar los puntos de calor a un contexto geo-ecológico. Esto implicó 
 
-![alt text](/figuras/image.jpg)
+![alt text](/figuras/qgis_01.jpg)
 ### 5.x Aproximaciones analíticas
 Aquí se describen las aproximaciones analíticas con las que el equipo se enfrentó al problema. Todos estos análisis pueden ser consultados en la sección de resultados.
 
