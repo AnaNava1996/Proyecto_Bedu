@@ -1,6 +1,7 @@
 # Proyecto Fase 2.1 BEDU - Equipo 23
 
 ## Tabla de contenido
+- [Panorama Inicial] (#panorama_inicial)
 - [Introducción](#problemática)
 - [Objetivo](#objetivo)
 - [Alcance](#alcance)
@@ -24,11 +25,11 @@ Integrantes: (hay q poner nuestros nombres completos)
 
 - Hegar
 
-- Gerardo
+- Gerardo leonel García Pegueros
 
 
 ## Introducción
-Las zonas forestales son imprescindibles para la vida en el planeta. Además de ser parte fundamental en los ciclos de producción y distribución del agua, purifican el aire que respiramos al capturar bióxido de carbono y liberar oxígeno. También regulan la temperatura y la humedad, con lo que se equilibra el clima; proporcionan alimento, medicina y refugio a los seres vivos; y son fuente de materia prima en muchas actividades humanas. [1]
+Las zonas forestales son imprescindibles para la vida en el planeta. Además de ser parte fundamental en los ciclos de producción y distribución del agua, purifican el aire que respiramos al capturar bióxido de carbono y liberar oxígeno. También regulan la temperatura y la humedad, con lo que se equilibra el clima; proporcionan alimento, medicina y refugio a los seres vivos; y son fuente de materia prima en muchas actividades humanas.
 
 
 ### Condiciones que influyen en la iniciación de un incendio forestal
