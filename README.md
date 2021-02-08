@@ -25,7 +25,7 @@ Integrantes: (hay q poner nuestros nombres completos)
 
 - Hegar
 
-- Gerardo leonel García Pegueros
+- Gerardo Leonel García Pegueros
 
 
 ## 1. Introducción
@@ -138,10 +138,10 @@ Disclaimer. Se invita a la población a considerar las advertencias expedidas po
 
 [[2]  Morales, C., y Waller, A. (8 de septiembre de 2020). Una fiesta para dar conocer el sexo de un bebé termina en incendio. Ya había pasado antes. New York Times.](https://www.nytimes.com/es/2020/09/08/espanol/estados-unidos/incendio-california-fiesta.html)
 
-[[3]  SITUACIÓN DE INCENDIOS FORESTALES EN MÉXICO AL 23 DE JULIO. Comisión Nacional Forestal ]( https://www.gob.mx/conafor/prensa/situacion-de-incendios-forestales-en-mexico-al-23-de-julio#:~:text=La%20Secretar%C3%ADa%20de%20Medio%20Ambiente,su%20mayor%C3%ADa%20pastos%20y%20matorrales.)
+[[3]  Comisión Nacional Forestal (2020) Situacion de incendios forestales al 23 de julio]( https://www.gob.mx/conafor/prensa/situacion-de-incendios-forestales-en-mexico-al-23-de-julio#:~:text=La%20Secretar%C3%ADa%20de%20Medio%20Ambiente,su%20mayor%C3%ADa%20pastos%20y%20matorrales.)
 
-[[4] NASA (s.f.) Fire Information for Resource Management System]  (https://firms.modaps.eosdis.nasa.gov/)
+[[4] NASA (s.f.) Fire Information for Resource Management System] (https://firms.modaps.eosdis.nasa.gov/)
 
-[[5] CONABIO (s.f.) Geoportal. ] (http://www.conabio.gob.mx/informacion/gis/)
+[[5] CONABIO (s.f.) Geoportal. ](http://www.conabio.gob.mx/informacion/gis/)
 
 
