@@ -18,13 +18,13 @@ El proyecto elegido lleva por título “Análisis de riesgo de incendio foresta
 
 Integrantes: (hay q poner nuestros nombres completos)
 
--Erendira
+- Erendira
 
--Ana
+- Ana
 
--Hegar
+- Hegar
 
--Gerardo
+- Gerardo
 
 
 ## Introducción
