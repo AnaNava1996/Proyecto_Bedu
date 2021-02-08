@@ -95,7 +95,7 @@ Asimismo, se utilizaron los datos vectoriales (polígonos) de dos mapas temátic
 [eco-regiones terrestres](http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
 
 
-### 5.x Preparación de los datos
+### 5.1 Preparación de los datos
 En el mismo script `read_files.R` se filtraron los puntos de calor cuyo campo `Confidence` superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de estar asociados a un incendio. Asimismo se realizó una operación de cadena de caracteres en la columna de la hora de adquisición acq_date, para que el formato de la cadena fuera fácilmente convertible a formato time en pasos subsecuentes. 
 
 Los datos obtenidos como output tabular CSV de `read_files.R` se procesaron posteriormente en el software libre QGIS para asociar los puntos de calor a un contexto geo-ecológico. Los pasos a seguir en este proceso fueron los siguientes:
@@ -118,21 +118,21 @@ Los datos obtenidos del proceso anterior se exportaron a un CSV `incendios_con_e
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_08.png" width="416" height="329">
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_09.PNG" width="295" height="344">
 
-### 5.x Aproximaciones analíticas
+### 5.2 Aproximaciones analíticas
 Aquí se describen las aproximaciones analíticas con las que el equipo se enfrentó al problema. Todos estos análisis pueden ser consultados en la sección de resultados.
 
 
-#### 5.x Aproximación Descriptiva
+#### Aproximación Descriptiva
 Se decidió utilizar esta aproximación desde un principio para conocer el contexto de la situación y nuestra realidad actual. Para esto se encontraron diversas relaciones entre los incendios forestales, puntos de calor y tipo de vegetación. 
 
 
-#### 5.x Aproximación diagnóstica
-Esta aproximación se empleó con el fin de entender la causa de los incendios forestales en México. Estudios estadísticos fueron representados en un histograma dinámico que muestra las frecuencias de incendios por zonas del país, un diagrama de dispersión que…(?) y series de tiempo que indican las tendencias entre los años 2002 y 2018 por regiones del país.
+#### Aproximación diagnóstica
+Esta aproximación se empleó con el fin de entender la causa de los incendios forestales en México. Estudios estadísticos fueron representados en un gráfico de barras dinámico que muestra las frecuencias de incendios por zonas del país, y series de tiempo que indican las tendencias entre los años 2000 y 2019 por ecorregiones y tipos de suelo del país.
 
 
-#### 5.x Aproximación predictiva
+#### Aproximación predictiva
 
-Se hará uso de este tipo de predicción para decidir si las tendencias en incendios forestales continuarán. (?)
+Se hará uso de este tipo de predicción para decidir si las tendencias en incendios forestales continuarán.
 
 ## 6. Resultados
 
@@ -212,16 +212,19 @@ En la última sección del dasboard se encuentran dos graficas interactivas, sim
 
 
 ## 7. Discusión
-Según la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat) y la Comisión Nacional Forestal (Conafor), aunque los incendios forestales ocurren durante todo el año, la temporada fuerte para la región Centro, Norte, Noreste, Sur y Sureste del país se presenta principalmente del mes de enero a junio. En nuestro análisis podemos comprobar que…(?) 
+Según la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat) y la Comisión Nacional Forestal (Conafor), aunque los incendios forestales ocurren durante todo el año, la temporada fuerte para la región Centro, Norte, Noreste, Sur y Sureste del país se presenta principalmente del mes de enero a junio, en tanto que, para la región Noroeste, la temporada crítica es de mayo a septiembre. Gracias al análisis realizado se puede comprobar que en efecto esto es así; en el mapa de incendios correspondiente a la pestaña número uno del dashboard, se muestra como las regiones en la que los incendios aparecen varían respecto a la temporada seleccionada en el mapa interactivo
 
-En tanto que, para la región Noroeste, la temporada crítica es de mayo a septiembre, coincidiendo (o no) (?) con nuestros estudios que…
-También la Semarnat y la Conafor indican que la mayor vegetación afectada es en su mayoría pastos y matorrales, en nuestro estudio se encontró que… (?) 
+También la Semarnat y la Conafor indican que la mayor vegetación afectada es en su mayoría pastos y matorrales. En las gráficas mostradas en las últimas dos pestañas del dashboard queda demostrado que esto es así. En las gráficas que muestran incendios por tipo de suelo se muestra que las zonas con más probabilidad de sufrir un incendio son los matorrales, las selvas, los bosques y las zonas de manejo agrícola, pecuario y forestal, por el contrario, zonas no mostradas en nuestros resultados, pero que pueden ser consultadas desde la aplicación del proyecto, tienen muy baja probabilidad de incendiarse, zonas tales como áreas sin vegetación aparente, manglares, vegetaciones de suelos arenosos y ciudades importantes. Respecto a las gráficas de incendio por ecorregión, las más propensas a sufrir incendios son las selvas, y las sierras, mientras que los que menos los sufren son las zonas semiáridas, desiertos y grandes planicies
+
+En cuanto al análisis predictivo, no se desarrolló ningún algoritmo, pero con el análisis estadístico aquí realizado, se predice tendencias similares en cuanto a regiones y temporadas en los años venideros.
+
 
 
 ## 8. Conclusiones 
-Los datos que poseen mayor relación con los positivos de incendios fueron:
 
-Las gráficas de tiempo indican que...
+Los puntos de calor son el mejor medible para estimar el riesgo de incendio en una localización determinada, estos combinados con el tipo de vegetación, dado por las ecorregiones y tipos de suelo proporcionan datos suficientes para su análisis estadístico. 
+
+Los estudios aquí realizados dejan claro cuales son las regiones del país y las temporadas más susceptibles a sufrir un incendio. Estos podrán ayudar en la generación de acciones preventivas; dirigidas a restringir las actividades de riesgo humanas en sitios específicos y predictivas, para estar que las autoridades correspondientes puedan estar preparadas en el lugar y temporada correspondiente.
 
 Disclaimer. Se invita a la población a considerar las advertencias expedidas por nuestras autoridades reiterando el llamado a no hacer uso del fuego en las zonas forestales. Los incendios en áreas urbanas son atendidos por Protección Civil, y se deben reportar al número gratuito 800-INCENDIO (46236346) o al 911.
 
