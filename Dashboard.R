@@ -34,7 +34,7 @@ dashboard <-
     tabName = "Dashboard",
     fluidRow(
       titlePanel("Cantidad de Incendios por Ecorregión y Tipo de Suelo"),
-      mainPanel(plotOutput("plot1")),
+      mainPanel(plotOutput("plot1"))
     ) 
   )
 
@@ -49,7 +49,7 @@ img <-
   tabItem(
     tabName = "img",
     fluidRow(
-      titlePanel(h3("Imágen de calor para la correlación de las variables")),
+      titlePanel(h3("Localizacion de eco-regiones y tipos de suelo")),
       img(src = "ecorregiones.png", align = "center", width = 750),
       img(src = "conabio_vegetacion.png", align = "center", width = 750)
     )
@@ -232,19 +232,6 @@ server <- function(input, output) {
       )
   })
 
-  # Gráficas de dispersión
-  output$output_plot <- renderPlot({
-    ggplot(mtcars, aes(
-      x =  mtcars[, input$a],
-      y = mtcars[, input$y],
-      colour = mtcars[, input$z]
-    )) +
-      geom_point() +
-      ylab(input$y) +
-      xlab(input$a) +
-      theme_linedraw() +
-      facet_grid(input$z)
-  })
   
   #Data Table
   output$data_table <- renderDataTable({
