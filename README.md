@@ -1,6 +1,6 @@
-# Proyecto Bedu
+# Proyecto Fase 2.1 BEDU - Equipo 23
 
-## Tabla de contenidos
+## Tabla de contenido
 - [Introducción](#problemática)
 - [Objetivo](#objetivo)
 - [Alcance](#alcance)
@@ -19,9 +19,13 @@ El proyecto elegido lleva por título “Análisis de riesgo de incendio foresta
 Integrantes: (hay q poner nuestros nombres completos)
 
 -Erendira
+
 -Ana
+
 -Hegar
+
 -Gerardo
+
 
 ## Introducción
 Las zonas forestales son imprescindibles para la vida en el planeta. Además de ser parte fundamental en los ciclos de producción y distribución del agua, purifican el aire que respiramos al capturar bióxido de carbono y liberar oxígeno. También regulan la temperatura y la humedad, con lo que se equilibra el clima; proporcionan alimento, medicina y refugio a los seres vivos; y son fuente de materia prima en muchas actividades humanas.
