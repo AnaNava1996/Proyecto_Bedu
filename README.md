@@ -4,10 +4,10 @@
 - [Introducción](#problemática)
 - [Objetivo](#objetivo)
 - [Alcance](#alcance)
-- [Justificación](#justificacion)
+- [Justificación](#justificación)
 - [Desarrollo](#desarrollo)
 - [Resultados](#resultados)
-- [Discusión](#discusion)
+- [Discusión](#discusión)
 - [Conclusiones](#conclusiones)
 - [Referencias](#referencias)
 
@@ -125,7 +125,7 @@ En tanto que, para la región Noroeste, la temporada crítica es de mayo a septi
 También la Semarnat y la Conafor indican que la mayor vegetación afectada es en su mayoría pastos y matorrales, en nuestro estudio se encontró que… (?) 
 
 
-## Conclusiónes 
+## Conclusiones 
 Los datos que poseen mayor relación con los positivos de incendios fueron:
 
 Las gráficas de tiempo indican que...
