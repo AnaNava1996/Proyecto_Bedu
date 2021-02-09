@@ -1,5 +1,7 @@
 # Proyecto BEDU Fase 2 (Equipo 23)
 
+[link al proyecto](https://ana-paola-nava-vivas.shinyapps.io/Incendios_Forestales/?_ga=2.189257967.55323161.1612811061-2016528240.1612811061)
+
 ## Tabla de contenido
 - [0. Panorama Inicial](#panorama_inicial)
 - [1. Introducción](#problemática)
