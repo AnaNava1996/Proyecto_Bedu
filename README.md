@@ -4,7 +4,7 @@
 
 ## Tabla de contenido
 - [0. Panorama Inicial](#panorama-inicial)
-- [1. Introducción](#1.-Introducción)
+- [1. Introducción](#1\.-Introducción)
 - [2. Objetivo](#objetivo)
 - [3. Alcance](#alcance)
 - [4. Justificación](#justificación)
