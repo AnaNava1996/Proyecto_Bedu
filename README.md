@@ -34,10 +34,10 @@ Las zonas forestales son imprescindibles para la vida en el planeta. Además de 
 ### 1.1. Factores relevantes en la iniciación de un incendio forestal
 
 #### 1.1.1. Las fuentes de calor 
-En el bosque no existe la combustión espontánea, siempre se requiere de una fuente de incandescencia externa mayor a 200°C para que ocurra un incendio. Estos puntos son los principales datos utilizados en este estudio.[1](#referencias)
+En el bosque no existe la combustión espontánea, siempre se requiere de una fuente de incandescencia externa mayor a 200°C para que ocurra un incendio. Estos puntos son los principales datos utilizados en este estudio.[[1]](#referencias)
 
 #### 1.1.2. La temporada
-Los incendios forestales pueden ocurrir en cualquier momento; sin embargo, en México se presentan dos temporadas de mayor incidencia: la primera, correspondiente a las zonas centro, norte, noreste, sur y sureste del país, que inicia en enero y concluye en junio. La segunda temporada inicia en mayo y termina en septiembre, y se registra en el noroeste del país. Ambas coinciden con la época de mayor estiaje (sequía) en el territorio nacional.[1](#referencias)
+Los incendios forestales pueden ocurrir en cualquier momento; sin embargo, en México se presentan dos temporadas de mayor incidencia: la primera, correspondiente a las zonas centro, norte, noreste, sur y sureste del país, que inicia en enero y concluye en junio. La segunda temporada inicia en mayo y termina en septiembre, y se registra en el noroeste del país. Ambas coinciden con la época de mayor estiaje (sequía) en el territorio nacional.[[1]](#referencias)
 
 #### 1.1.3. Los asentamientos humanos 
 Una zona forestal a la que los humanos ingresan con facilidad y constancia es más susceptible a la ocurrencia de incendios forestales.
@@ -50,7 +50,7 @@ Para detectar los incendios se cuenta con varios recursos, almacenados en las ba
 La Sistema de Información de Incendios para Manejo de Recursos (Fire Information for Resource Management System: FIRMS) de la NASA utiliza observaciones satelitales de los sensores MODIS y VIIRS para detectar incendios activos y anomalías térmicas; y proporcionar esta información en tiempo casi real a tomadores de decisiones por medio de alertas de correo electrónico, datos aptos para análisis, mapas online y servicios web.
 
 #### 1.2.2. Datos geoespaciales CONABIO
-La Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) mediante su geoportal proporciona diversos sets de datos geoespaciales temáticos relacionados con la biósfera en nuestro país. Asimismo permite descargar dichos sets de datos en diversos formatos.[5](#referencias)
+La Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) mediante su geoportal proporciona diversos sets de datos geoespaciales temáticos relacionados con la biósfera en nuestro país. Asimismo permite descargar dichos sets de datos en diversos formatos.[[5]](#referencias)
 
 ### 1.3. Principales factores iniciadores de un incendio forestal
 
@@ -58,9 +58,9 @@ La Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) m
 La mayoría de los incendios forestales son ocasionados por la actividad humana, pero también es interesante estudiar cuáles factores ambientales hay que tener en cuenta para la prevención de incendios ya que la humedad, el tipo de vegetación, influyen y son importantes para que se expresen los incendios.
 
 #### 1.3.2. Factor humano
-Si bien hay ciertos factores que no se pueden predecir, como la oportunidad de que una persona entre a un bosque haga un baby shower y desencadene un incendio en California, [2](#referencias) existen otros eventos de los cuales sí se puede hacer una correlación con los incendios forestales, como lo son la tala y la quema de bosques. 
+Si bien hay ciertos factores que no se pueden predecir, como la oportunidad de que una persona entre a un bosque haga un baby shower y desencadene un incendio en California, [[2]](#referencias) existen otros eventos de los cuales sí se puede hacer una correlación con los incendios forestales, como lo son la tala y la quema de bosques. 
 
-Se cree que entre el 95% y el 99% de los incendios forestales son ocasionados por actividades derivadas de los humanos [1](#referencias). Entre las cuales destacan las siguientes actividades: [3](#referencias)
+Se cree que entre el 95% y el 99% de los incendios forestales son ocasionados por actividades derivadas de los humanos [[1]](#referencias). Entre las cuales destacan las siguientes actividades: [[3]](#referencias)
 
 - Actividades ilícitas (27%)
 - Agrícolas (27%) 
