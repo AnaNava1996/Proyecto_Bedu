@@ -1,6 +1,6 @@
 # Proyecto BEDU Fase 2 (Equipo 23)
 
-[link al proyecto](https://ana-paola-nava-vivas.shinyapps.io/Incendios_Forestales/?_ga=2.189257967.55323161.1612811061-2016528240.1612811061)
+[Link al proyecto](https://ana-paola-nava-vivas.shinyapps.io/Incendios_Forestales/?_ga=2.189257967.55323161.1612811061-2016528240.1612811061)
 
 ## Tabla de contenido
 - [0. Panorama Inicial](#panorama_inicial)
@@ -50,7 +50,7 @@ Para detectar los incendios se cuenta con varios recursos, almacenados en las ba
 La Sistema de Información de Incendios para Manejo de Recursos (Fire Information for Resource Management System: FIRMS) de la NASA utiliza observaciones satelitales de los sensores MODIS y VIIRS para detectar incendios activos y anomalías térmicas; y proporcionar esta información en tiempo casi real a tomadores de decisiones por medio de alertas de correo electrónico, datos aptos para análisis, mapas online y servicios web.
 
 #### 1.2.2. Datos geoespaciales CONABIO
-La Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) mediante su geoportal proporciona diversos sets de datos geoespaciales temáticos relacionados con la biósfera en nuestro país. Asimismo permite descargar dichos sets de datos en diversos formatos.[5]
+La Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) mediante su geoportal proporciona diversos sets de datos geoespaciales temáticos relacionados con la biósfera en nuestro país. Asimismo permite descargar dichos sets de datos en diversos formatos.[5](#referencias)
 
 ### 1.3. Principales factores iniciadores de un incendio forestal
 
@@ -58,9 +58,9 @@ La Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) m
 La mayoría de los incendios forestales son ocasionados por la actividad humana, pero también es interesante estudiar cuáles factores ambientales hay que tener en cuenta para la prevención de incendios ya que la humedad, el tipo de vegetación, influyen y son importantes para que se expresen los incendios.
 
 #### 1.3.2. Factor humano
-Si bien hay ciertos factores que no se pueden predecir, como la oportunidad de que una persona entre a un bosque haga un baby shower y desencadene un incendio en California, [2] existen otros eventos de los cuales sí se puede hacer una correlación con los incendios forestales, como lo son la tala y la quema de bosques. 
+Si bien hay ciertos factores que no se pueden predecir, como la oportunidad de que una persona entre a un bosque haga un baby shower y desencadene un incendio en California, [2](#referencias) existen otros eventos de los cuales sí se puede hacer una correlación con los incendios forestales, como lo son la tala y la quema de bosques. 
 
-Se cree que entre el 95% y el 99% de los incendios forestales son ocasionados por actividades derivadas de los humanos [1]. Entre las cuales destacan las siguientes actividades: [3]
+Se cree que entre el 95% y el 99% de los incendios forestales son ocasionados por actividades derivadas de los humanos [1](#referencias). Entre las cuales destacan las siguientes actividades: [3](#referencias)
 
 - Actividades ilícitas (27%)
 - Agrícolas (27%) 
