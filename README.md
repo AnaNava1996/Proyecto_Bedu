@@ -31,13 +31,13 @@ Desarrollado por:
 Las zonas forestales son imprescindibles para la vida en el planeta. Además de ser parte fundamental en los ciclos de producción y distribución del agua, purifican el aire que respiramos al capturar bióxido de carbono y liberar oxígeno. También regulan la temperatura y la humedad, con lo que se equilibra el clima; proporcionan alimento, medicina y refugio a los seres vivos; y son fuente de materia prima en muchas actividades humanas.
 
 
-### 1.1. Factores relevantes en la iniciación de un incendio forestal [1]
+### 1.1. Factores relevantes en la iniciación de un incendio forestal
 
 #### 1.1.1. Las fuentes de calor 
-En el bosque no existe la combustión espontánea, siempre se requiere de una fuente de incandescencia externa mayor a 200°C para que ocurra un incendio. Estos puntos son los principales datos utilizados en este estudio.
+En el bosque no existe la combustión espontánea, siempre se requiere de una fuente de incandescencia externa mayor a 200°C para que ocurra un incendio. Estos puntos son los principales datos utilizados en este estudio.[1](#referencias)
 
 #### 1.1.2. La temporada
-Los incendios forestales pueden ocurrir en cualquier momento; sin embargo, en México se presentan dos temporadas de mayor incidencia: la primera, correspondiente a las zonas centro, norte, noreste, sur y sureste del país, que inicia en enero y concluye en junio. La segunda temporada inicia en mayo y termina en septiembre, y se registra en el noroeste del país. Ambas coinciden con la época de mayor estiaje (sequía) en el territorio nacional.
+Los incendios forestales pueden ocurrir en cualquier momento; sin embargo, en México se presentan dos temporadas de mayor incidencia: la primera, correspondiente a las zonas centro, norte, noreste, sur y sureste del país, que inicia en enero y concluye en junio. La segunda temporada inicia en mayo y termina en septiembre, y se registra en el noroeste del país. Ambas coinciden con la época de mayor estiaje (sequía) en el territorio nacional.[1](#referencias)
 
 #### 1.1.3. Los asentamientos humanos 
 Una zona forestal a la que los humanos ingresan con facilidad y constancia es más susceptible a la ocurrencia de incendios forestales.
