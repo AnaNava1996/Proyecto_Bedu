@@ -17,7 +17,16 @@
 - [4. Justificación](#4-justificación)
 - [5. Desarrollo](#5-desarrollo)
   - [5.1 Recolección de los datos](#51-recolección-de-los-datos)
+  - [5.2 Preparación de los datos](#52-preparación-de-los-datos)
+  - [5.3 Aproximaciones analíticas](#53-aproximaciones-analíticas)
+    - [Aproximación descriptiva](#aproximación-descriptiva)
+    - [Aproximación descriptiva](#aproximación-descriptiva)
+    - [Aproximación predictiva](#aproximación-predictiva)
 - [6. Resultados](#6-resultados)
+  - [Incendios por rango de fechas](#incendios-por-rango-de-fechas)
+  - [Imagen de calor para la correlación de variables](#imagen-de-calor-para-la-correlación-de-variables)
+  - [Tabla de datos](#tabla-de-datos)
+  - [Cantidad de incendios por ecorregión y tipo de suelo](#cantidad-de-incendios-por-ecorregión-y-tipo-de-suelo)
 - [7. Discusión](#7-discusión)
 - [8. Conclusiones](#8-conclusiones)
 - [9. Referencias](#9-referencias)
@@ -102,7 +111,7 @@ Asimismo, se utilizaron los datos vectoriales (polígonos) de dos mapas temátic
 [eco-regiones terrestres](http://www.conabio.gob.mx/informacion/metadata/gis/ecort08gw.xml?_xsl=/db/metadata/xsl/fgdc_html.xsl&_indent=no)
 
 
-### 5.1 Preparación de los datos
+### 5.2 Preparación de los datos
 En el mismo script `read_files.R` se filtraron los puntos de calor cuyo campo `Confidence` superara el percentil 90. Esto para tomar en cuenta dentro de nuestro estudio, solo aquellos puntos de calor con mayor probabilidad de estar asociados a un incendio. Asimismo se realizó una operación de cadena de caracteres en la columna de la hora de adquisición acq_date, para que el formato de la cadena fuera fácilmente convertible a formato time en pasos subsecuentes. 
 
 Los datos obtenidos como output tabular CSV de `read_files.R` se procesaron posteriormente en el software libre QGIS para asociar los puntos de calor a un contexto geo-ecológico. Los pasos a seguir en este proceso fueron los siguientes:
@@ -125,7 +134,7 @@ Los datos obtenidos del proceso anterior se exportaron a un CSV `incendios_con_e
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_08.png" width="416" height="329">
 <img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_09.PNG" width="295" height="344">
 
-### 5.2 Aproximaciones analíticas
+### 5.3 Aproximaciones analíticas
 Aquí se describen las aproximaciones analíticas con las que el equipo se enfrentó al problema. Todos estos análisis pueden ser consultados en la sección de resultados.
 
 
@@ -161,7 +170,7 @@ Aquí se pueden consultar datos específicos del dataframe principal utilizado e
 
 <img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/3.1%20Tabla%20de%20datos.JPG">
 
-### Cantidad de icendios por ecoregión y tipo de suelo
+### Cantidad de incendios por ecorregión y tipo de suelo
 
 En la cuarta pestaña del dashboard se ilustra un grafico de barras que muestra la frecuencia de incendios por ecorregión y tipo de suelo. Los tipos de suelo se encuentran distribuidos en el eje horizontal, mientras que las ecorregiones son representadas por bloques de colores distintos.
 
