@@ -4,15 +4,15 @@
 
 ## Tabla de contenido
 - [0. Panorama Inicial](#panorama-inicial)
-- [1. Introducción](#1\.-Introducción)
-- [2. Objetivo](#objetivo)
-- [3. Alcance](#alcance)
-- [4. Justificación](#justificación)
-- [5. Desarrollo](#desarrollo)
-- [6. Resultados](#resultados)
-- [7. Discusión](#discusión)
-- [8. Conclusiones](#conclusiones)
-- [9. Referencias](#referencias)
+- [1. Introducción](#1-introducción)
+- [2. Objetivo](#2-objetivo)
+- [3. Alcance](#3-alcance)
+- [4. Justificación](#4-justificación)
+- [5. Desarrollo](#5-desarrollo)
+- [6. Resultados](#6-resultados)
+- [7. Discusión](#7-discusión)
+- [8. Conclusiones](#8-conclusiones)
+- [9. Referencias](#9-referencias)
 
 ## Panorama Inicial
 El presente repositorio almacena los recursos utilizados para la realización del proyecto en equipo correspondiente a la segunda fase del programa BEDU – Santander: Disruptive Innovation: Data Science.
