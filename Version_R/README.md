@@ -134,21 +134,21 @@ Los datos obtenidos como output tabular CSV de `read_files.R` se procesaron post
 
 Se generó un nuevo proyecto QGIS con las capas vectoriales de los dos mapas temáticos de CONABIO (archivos SHP) y se importó a este proyecto QGIS el archivo CSV generado en `read_files.R` . 
 
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_01.png" width="503" height="345">
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_02.PNG" width="355" height="315">
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_03.PNG" width="371" height="345">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/qgis_01.png" width="503" height="345">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/qgis_02.PNG" width="355" height="315">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/qgis_03.PNG" width="371" height="345">
 
 Se utilizó la herramienta de SAGA de agregar atributos de polígonos a puntos, con esto los puntos de calor ubicados dentro del polígono de una eco-región o tipo de suelo dado adquieren los atributos (columnas) de dichos polígonos. Esto tiene el efecto de un join, así los puntos de calor adquieren la información del tipo de suelo y eco-región en donde ocurrieron. Como se ve en las capturas de pantalla, este proceso se realizó dos veces ya que se requirió agregar los atributos (columnas) de dos datasets de polígonos: tipos de suelo y eco-regiones.
 
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_04.PNG" width="220" height="345">
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_05.PNG" width="344" height="260">
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_06.PNG" width="297" height="346">
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_07.PNG" width="344" height="260">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/qgis_04.PNG" width="220" height="345">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/qgis_05.PNG" width="344" height="260">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/qgis_06.PNG" width="297" height="346">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/qgis_07.PNG" width="344" height="260">
 
 Los datos obtenidos del proceso anterior se exportaron a un CSV `incendios_con_ecoregiones_y_tiposdesuelo.csv` en la carpeta `Data_Sets` de este repositorio. Este archivo es el que se utilizó para los análisis posteriores. 
 
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_08.png" width="416" height="329">
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/qgis_09.PNG" width="295" height="344">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/qgis_08.png" width="416" height="329">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/qgis_09.PNG" width="295" height="344">
 
 ### 5.3 Aproximaciones analíticas
 Aquí se describen las aproximaciones analíticas con las que el equipo se enfrentó al problema. Todos estos análisis pueden ser consultados en la sección de resultados.
@@ -172,75 +172,75 @@ Se hará uso de este tipo de predicción para decidir si las tendencias en incen
 
 En la primera pestaña del dashboard se puede encontrar un mapa interactivo de México, en donde se muestran las ubicaciones de incendios por fecha seleccionada.
 
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/1.1%20Incendios%20por%20rango%20de%20fechas.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/1.1%20Incendios%20por%20rango%20de%20fechas.JPG">
 
 ### Imagen de Calor para la correlación de variables
 
 En la segunda pestaña se despliegan dos mapas, el primero de ecorregiones terrestres en México, y el segundo de uso de suelo y vegetación modificado por la CONABIO. Tanto las ecorregiones como el mapa de uso de suelo y vegetación fueron utilizados en los próximos análisis.
 
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/2.1%20Imagen%20de%20calor%20para%20la%20correlaci%C3%B3n%20de%20variables.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/2.1%20Imagen%20de%20calor%20para%20la%20correlaci%C3%B3n%20de%20variables.JPG">
 
 ### Tabla de datos
 
 Aquí se pueden consultar datos específicos del dataframe principal utilizado en este proyecto ya sea navegando por las numerosas paginas o haciendo una búsqueda directa en la ventana ‘Search’.
 
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/3.1%20Tabla%20de%20datos.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/3.1%20Tabla%20de%20datos.JPG">
 
 ### Cantidad de incendios por ecorregión y tipo de suelo
 
 En la cuarta pestaña del dashboard se ilustra un grafico de barras que muestra la frecuencia de incendios por ecorregión y tipo de suelo. Los tipos de suelo se encuentran distribuidos en el eje horizontal, mientras que las ecorregiones son representadas por bloques de colores distintos.
 
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/4.1%20cantidad%20de%20incendios%20por%20ecoregi%C3%B3n%20y%20tipo%20de%20suelo.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/4.1%20cantidad%20de%20incendios%20por%20ecoregi%C3%B3n%20y%20tipo%20de%20suelo.JPG">
 
 ### Incendios por ecorregión
 
 En esta pestaña se encuentran dos graficas interactivas a seleccionar por ecorregión, la primera muestra las variaciones en incendios a lo largo de los años 2000 al 2019, y la segunda los incendios por temporada acumulados por día del año.
 
 #### Selvas Calido-Humedas
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.1%20Selvas%20Calido-Humedas.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/5.1%20Selvas%20Calido-Humedas.JPG">
 
 #### Elevaciones semiaridas meridoniales
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.2%20Elevaciones%20semiaridas%20meridoniales.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/5.2%20Elevaciones%20semiaridas%20meridoniales.JPG">
 
 #### Desiertos de America del Norte
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.3%20Desiertos%20de%20America%20del%20Norte.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/5.3%20Desiertos%20de%20America%20del%20Norte.JPG">
 
 #### Grandes Planicies
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.4%20Grandes%20Planicies.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/5.4%20Grandes%20Planicies.JPG">
 
 #### Selvas Calido-Secas
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.5%20Selvas%20Calido-Secas.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/5.5%20Selvas%20Calido-Secas.JPG">
 
 #### Sierras Templadas
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.6%20Sierras%20Templadas.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/5.6%20Sierras%20Templadas.JPG">
 
 #### California Mediterranea
-<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/5.7%20California%20Mediterranea.JPG">
+<img src= "https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/5.7%20California%20Mediterranea.JPG">
 
 ### Incendios por tipo/uso de suelo
 
 En la última sección del dasboard se encuentran dos graficas interactivas, similares a las de la sección anterior, pero estas clasificadas por tipo/uso de suelo. 
 
 #### Manejo Agricola, precuario y forestal
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.1%20Manejo%20Agricola%2C%20precuario%20y%20forestal.JPG">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/6.1%20Manejo%20Agricola%2C%20precuario%20y%20forestal.JPG">
 
 #### Selva alta
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.2%20Selva%20alta.JPG">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/6.2%20Selva%20alta.JPG">
 
 #### Matorral desértico
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.3%20Matorral%20des%C3%A9rtico%20microfilo.JPG">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/6.3%20Matorral%20des%C3%A9rtico%20microfilo.JPG">
 
 #### Matorral espinozo
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.4%20Matorral%20espinozo.JPG">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/6.4%20Matorral%20espinozo.JPG">
 
 #### Bosque de encino
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.5%20bosque%20de%20encino.JPG">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/6.5%20bosque%20de%20encino.JPG">
 
 #### Selva baja
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.6%20Selva%20baja.JPG">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/6.6%20Selva%20baja.JPG">
 
 #### Pastizal
-<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/figuras/6.7%20Pastizal.JPG">
+<img src="https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Version_R/figuras/6.7%20Pastizal.JPG">
 
 
 ## 7. Discusión
