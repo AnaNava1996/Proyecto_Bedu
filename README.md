@@ -8,11 +8,9 @@
     * Gerardo Leonel García Pegueros
 
 ## Versión Python
-[Link al video Python](https://www.youtube.com/watch?v=B3t9HQJ9G2k&ab_channel=TitoPegueros)
-
-[Link al git del proyecto en Python](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/proyecto_python/BEDU_proyecto_python_equipo23.ipynb)
-
-[Link a Colabs](https://colab.research.google.com/drive/1tKPZQ01Ruux7UzrUT_XYQDvfwQEbvGMK#scrollTo=cIKSYp-zsOGC)
+* [Link al video Python](https://www.youtube.com/watch?v=B3t9HQJ9G2k&ab_channel=TitoPegueros)
+* [Link al git del proyecto en Python](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/proyecto_python/BEDU_proyecto_python_equipo23.ipynb)
+* [Link a Colabs](https://colab.research.google.com/drive/1tKPZQ01Ruux7UzrUT_XYQDvfwQEbvGMK#scrollTo=cIKSYp-zsOGC)
 
 ## Versión R
 * [Link al proyecto en R](https://github.com/AnaNava1996/Proyecto_Bedu/tree/main/Version_R)
