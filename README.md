@@ -9,7 +9,7 @@
 
 ## Versión Python
 * [Link al video Python](https://www.youtube.com/watch?v=B3t9HQJ9G2k&ab_channel=TitoPegueros)
-* [Link al git del proyecto en Python](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/proyecto_python/BEDU_proyecto_python_equipo23.ipynb)
+* [Link al git del proyecto en Python](https://github.com/AnaNava1996/Proyecto_Bedu/blob/main/Entrega_Final_Procesamiento_ErendiraCelis_AnaNava_HegarGarcia_GerardoGarcia/BEDU_proyecto_python_equipo23.ipynb)
 * [Link a Colabs](https://colab.research.google.com/drive/1tKPZQ01Ruux7UzrUT_XYQDvfwQEbvGMK#scrollTo=cIKSYp-zsOGC)
 
 ## Versión R
